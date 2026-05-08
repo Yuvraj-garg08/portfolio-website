@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj | Creative Developer</title>
+    <!-- Google Fonts: Space Grotesk for Headings, Inter for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for modern icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Generative Canvas Background -->
+    <canvas id="generative-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Yuvraj<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="greeting">Hello, world! I am</p>
+                <h1 class="glitch" data-text="Yuvraj">Yuvraj</h1>
+                <h2 class="role">Creative Developer & Tech Enthusiast</h2>
+                <p class="description">
+                    I build interactive, scalable, and visually stunning digital experiences. 
+                    Exploring the intersection of code and generative art.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#about" class="btn btn-secondary">More About Me</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i class='bx bx-mouse'></i>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text glass-card">
+                    <p>I am a passionate developer focused on building exceptional digital experiences. With a strong foundation in modern web technologies, I love creating intuitive interfaces that feel alive.</p>
+                    <p>My journey in tech is driven by curiosity and a constant desire to learn. I specialize in front-end development, backend architecture, and creating seamless user interactions.</p>
+                    
+                    <h3 class="skills-title">Core Technologies</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag"><i class='bx bxl-html5'></i> HTML5</span>
+                        <span class="skill-tag"><i class='bx bxl-css3'></i> CSS3</span>
+                        <span class="skill-tag"><i class='bx bxl-javascript'></i> JavaScript</span>
+                        <span class="skill-tag"><i class='bx bxl-react'></i> React.js</span>
+                        <span class="skill-tag"><i class='bx bxl-nodejs'></i> Node.js</span>
+                        <span class="skill-tag"><i class='bx bxl-tailwind-css'></i> Tailwind</span>
+                        <span class="skill-tag"><i class='bx bxl-git'></i> Git</span>
+                        <span class="skill-tag"><i class='bx bx-data'></i> Databases</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-1"></div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Food Wallah</h3>
+                        <p>A full-stack food delivery application with user authentication, dynamic menu loading, and interactive cart functionality.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-2"></div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>OpenEnv Email Triage</h3>
+                        <p>An intelligent email triage simulation environment designed for a hackathon, featuring automated validation and a sleek frontend.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>React</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-3"></div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Generative Art Gallery</h3>
+                        <p>An interactive gallery showcasing algorithmic art pieces generated in real-time using HTML5 Canvas and mathematical functions.</p>
+                        <div class="project-tech">
+                            <span>Canvas API</span>
+                            <span>Math</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="image-placeholder gradient-1"></div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub Repository"><i class='bx bxl-github'></i></a>
+                            <a href="#" aria-label="Live Demo"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Parking Management System</h3>
+                        <p>A fully functional parking management system for tracking vehicle entry/exit, managing available slots, and automating fee calculations.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                            <span>Backend System</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates section-padding">
+            <div class="section-header">
+                <h2>Certifications & Achievements</h2>
+                <div class="header-line"></div>
+            </div>
+            
+            <div class="cert-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-certification'></i></div>
+                    <div class="cert-details">
+                        <h3>C Programming</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bxl-python'></i></div>
+                    <div class="cert-details">
+                        <h3>Python Programming</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bxl-javascript'></i></div>
+                    <div class="cert-details">
+                        <h3>JavaScript</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 4 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bxl-react'></i></div>
+                    <div class="cert-details">
+                        <h3>React JS</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 5 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-code-alt'></i></div>
+                    <div class="cert-details">
+                        <h3>Complete Frontend Engineering</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+
+                <!-- Cert 6 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon"><i class='bx bx-joystick'></i></div>
+                    <div class="cert-details">
+                        <h3>Mastering Unreal 4.x Game Development</h3>
+                        <p class="cert-issuer">Infosys Springboard</p>
+                        <a href="#" class="cert-link">Verify Credential <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer glass-card">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <p>&copy; 2026 Yuvraj. Designed with Generative UI.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
